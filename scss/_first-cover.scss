@@ -1,0 +1,118 @@
+//
+// COVERS
+//---------------------------
+
+@each $bg, $controls in $bg-controls {
+
+	main {
+		& .#{$bg} {
+			background: $controls;
+			background-size: cover;
+			height: em(250);
+			position: relative;
+		}
+
+		& .logo {
+		@include controls-logo;
+	}
+	}
+}
+
+main {
+	.cover-history {
+		background-size: auto;
+	}
+}
+
+@each $bg, $cover2 in $bg-cover2 {
+
+	main {
+		& .#{$bg} {
+			background: $cover2;
+			background-size: cover;
+			height: em(350);
+			position: relative;
+		}
+
+		& .logo2 {
+		@include controls-logo;
+	}
+	}
+}
+
+main .cover2 {
+	background-attachment: fixed;
+}
+
+@media (max-width: 1140px ) {
+
+	@each $bg, $controls in $bg-controls-1140px {
+
+	main {
+		& .#{$bg} {
+			background: $controls;
+			background-size: cover;
+			height: em(250);
+			position: relative;
+		}
+
+	}
+
+	@each $bg, $cover2 in $bg-cover2-1140px {
+
+	main {
+		& .#{$bg} {
+			background: $cover2;
+			background-size: cover;
+			background-attachment: fixed;
+			height: em(350);
+			position: relative;
+		      }
+	    }
+     }
+  }
+
+    main {
+	.cover-history {
+		background-size: auto;
+	 }
+     }
+
+  }
+
+  @media (max-width: 1180px ) {
+
+  	.logo2 img {
+  		display: none;
+  	}
+
+  }
+
+
+
+/*
+main {
+
+	& .cover {  background: $bg-cover-home-first 50% -370px no-repeat;
+				background-size: cover;
+				height: 250px;
+				position: relative; }
+
+	& .cover-history {  background: $bg-cover-history-first 50% -890px no-repeat;
+					background-size: cover;
+					height: 250px;
+					position: relative; }
+
+	& .cover-samos {  background: $bg-cover-samos 50% -280px no-repeat;
+					background-size: cover;
+					height: 250px;
+					position: relative; }
+
+	& .cover-doc {  background: $bg-cover-doc 50% -280px no-repeat;
+					background-size: cover;
+					height: 250px;
+					position: relative; }
+
+
+}
+*/

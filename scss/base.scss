@@ -1,0 +1,45 @@
+
+//GENERAL
+@import "variables";       				//variables
+@import "mixins";          				//mixins and function
+@import "general";         				//general
+@import "typography";      				//typography
+@import "buttons";      				//buttons
+
+//HEADERS
+@import "headers/first-header";    		//First-header
+@import "headers/navigation";      		//navigation
+@import "first-cover";      			//first-cover
+
+//FOOTERS
+@import "footers/aside";      			//aside
+@import "footers/global-footer"; 		//globalfooter
+@import "footers/footer";       		//footer
+
+//PAGES
+// HOME/HISTORY
+@import "pages/section1";    			//section1-home/history
+@import "pages/section2_3";  			//section2-home/history
+
+//SAMOSPRAVA
+@import "pages/page-samo";    			//
+
+//GALLERY
+@import "pages/page-gallery";    		//
+
+//DOCUMENTS
+@import "pages/page-doc";    			//
+
+//CONTACT
+@import "pages/page-contact";    		//
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,104 @@
+
+.box {
+
+	color: $color-samos-text;
+
+	h3 {
+		font: {
+			size: em(22);
+			family:$font-family-text;
+		}
+
+		text-transform: uppercase;
+		background-color: $color-bg-h3-email;
+		padding: em(13, 22) 0;
+		border-top-right-radius: em(10, 22);
+		border-top-left-radius: em(10, 22);
+		margin-bottom: 0;
+	}
+
+	p {
+		color: $color-text;
+		font: {
+			size: em(18);
+			family: $font-family-text;
+		}
+
+		text-align: center;
+		background-color: #fff;
+	}
+	img {
+		width: 5em;
+		height: 5.5em;
+		border-radius: 50%;
+	}
+	a {
+		font-size: em(16);
+		display: block;
+		color: $color-samos-text;
+
+		&:hover,
+		&:focus {
+			color: darken($color-samos-text, 20%);
+
+		}
+	}
+
+	.mail {
+		border: {
+				bottom-right-radius: em(10);
+		    	bottom-left-radius: em(10);
+		}
+	}
+
+	.fas {
+		margin-right: em(8);
+	}
+
+	.profil {
+		background-color: #fff;
+		padding-bottom: em(30);
+	}
+
+
+
+}
+
+@each $bgs, $samos in $bg-samos {
+
+	.box {
+		& .#{$bgs} {
+			background-color:$samos;
+			padding: em(17) 0;
+		}
+	}
+
+}
+
+%congress {
+	display: inline-block;
+	width: em(330);
+	margin: em(20) 0;
+}
+
+.master {
+	@extend %congress;
+}
+
+.congressman1,
+.congressman2 {
+	@extend %congress;
+
+}
+
+.congressman3,
+.congressman4 {
+	@extend %congress;
+}
+
+.congressman1,
+.congressman3 {
+	margin-right: em(20);
+}
+
+

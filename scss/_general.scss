@@ -1,0 +1,52 @@
+//
+// GENERAL
+//---------------------------
+
+//border-box
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+
+body {
+	color: $color-text;
+	background: $color-bg-home;
+
+	font: {
+		size: $font-size-base;
+		family: $font-family-sans;
+	}
+
+	text-align: center;
+	margin:0;
+	-webkit-font-smoothing: antialiased;
+}
+
+a {
+	color: $color-text;
+	text-decoration: none;
+	transition: .5s all ease-in-out;
+}
+
+img {
+	max-width: 100%;
+	vertical-align: middle;
+}
+.logo img,
+.logo2 img{
+	width: 4em;
+	height: 4.5em;
+}
+
+ul {
+	margin:0;
+	list-style: none;
+	padding-left: 0;
+
+	li {
+		display: inline-block;
+	}
+}
+
+.container {
+	@include container( em(1024) );
+	padding: 0 em(16);
+}

@@ -1,0 +1,33 @@
+
+//
+// SECTION 1 -  HOME/HISTORY
+//---------------------------
+
+%title {
+	text-decoration: underline;
+	padding: em(40, 55) 0 em(10, 55);
+}
+
+.post-title {
+ 		@extend %title;
+			}
+
+.post-title2 {
+ 		@extend %title;
+
+			}
+
+.section-hist1 {
+	background: $color-bg-history;
+}
+
+.war {
+	background: $color-bg-history-war;
+	padding: em(30);
+}
+
+@media (max-width: 1400px ) {
+	.post-title{
+		font-size: em(35);
+	}
+}

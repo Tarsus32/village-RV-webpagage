@@ -1,0 +1,45 @@
+//
+// FIRST-HEADER
+//---------------------------
+
+.first-header {
+	background: #fff;
+	font-family: $font-family-first-header;
+	@include clearfix;
+	padding: 0 1.25em;
+
+	li {
+
+		p {
+			font:{
+				size: em(23);
+				weight: bold;
+				}
+			line-height:em(20);
+			margin: 0;
+		}
+
+		 h3 {
+			text-align: left;
+		 }
+	}
+
+	.head-name {
+		float:left;
+	}
+
+	.time {
+		margin-top: 1.1em;
+		float:right;
+	}
+
+	.top-logo {
+		padding-top: 0.9em;
+	}
+
+	border-bottom: em(1) solid  $color-bg-nav-btn;
+}
+
+#demo {
+	margin-bottom: em(2, 30);
+}

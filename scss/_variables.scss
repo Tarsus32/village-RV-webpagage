@@ -1,0 +1,91 @@
+// Variables
+//---------------------------
+
+// FONT-TEXT
+$font-size-base: 100%;
+$font-family-sans: 'Open Sans', sans-serif;
+$font-family-text: 'Gloria Hallelujah', cursive;
+$font-family-history:'Satisfy', cursive;
+$font-family-first-header:'Calligraffitti', cursive;
+
+// TEXT-COLOR
+$color-text:				#000;
+$color-text-history:		#fff;
+$color-here:				#e71c12;
+$color-here-si:				#1e1c1c;
+$color-menu:				#fff;
+$color-footer-text:			#fff;
+$color-samos-text:			#fff;
+
+$color-bg-si:				#e71c12;
+
+// BACKGROUND PAGES
+$color-bg-home: 		#ccc;
+$color-bg-history:		#1e1c1c;
+$color-bg-history-war:  #e71c12;
+
+// BACKGROUND SAMOS
+ $color-bg-h3-email: 	#1e1c1c;
+
+
+$bg-samos: (
+		"mail" 		  : 	#1e1c1c,
+		"phone" 	  : 	#e71c12
+	);
+
+// BACKGROUND SECTION
+
+$color-bg-nav: 			#e71c12;
+$color-bg-nav-btn:		#5f5d5d;
+$color-bg-nav-btn-dark: #fff;
+$color-globalfooter:	#1e1c1c;
+$color-bg-footer: 		#e71c12;
+
+// COVER PICTURE
+$bg-controls: (
+	"cover" : 		   url(../img/cover-start.jpg) center -24em no-repeat,
+	"cover-history":   url(../img/cover-history.jpg) center -56em no-repeat,
+	"cover-samos":     url(../img/cover-samos2.jpg) center -19em no-repeat,
+	"cover-doc":       url(../img/stranka_RV.jpg) 50% -17em no-repeat,
+	);
+
+$bg-controls-1140px: (
+	"cover" : 		   url(../img/cover-start.jpg) center -15em no-repeat,
+	"cover-history":   url(../img/cover-history.jpg) center -60em no-repeat,
+	"cover-samos":     url(../img/cover-samos2.jpg) center -11em no-repeat,
+	"cover-doc":       url(../img/stranka_RV.jpg) 50% -12em no-repeat,
+	);
+
+$bg-cover2: (
+		"cover2" : 			url(../img/church.jpg) 50% -6.756em no-repeat,
+		"cover2-history" : 	url(../img/cover2-history.jpg) 50% -3.146em no-repeat
+	);
+
+
+$bg-cover2-1140px: (
+		"cover2" : 			url(../img/church.jpg) 50% -4em no-repeat,
+	);
+
+// BUTTONS
+$color-text-btn: 	#fff;
+$color-bg-send:		#1e1c1c;
+
+
+
+
+/*
+$color-bg-gallery:
+$color-bg-documents:
+$color-bg-contact: */
+
+/*
+// COVER PICTURE
+
+$bg-cover-home-first: url(../img/cover-start.jpg);
+$bg-cover-home-sec: url(../img/church.jpg);
+$bg-cover-history-first: url(../img/cover-history.jpg);
+$bg-cover-history-sec: url(../img/cover2-history.jpg);
+$bg-cover-samos: url(../img/cover-samos2.jpg);
+$bg-cover-doc:url(../img/stranka_RV.jpg);
+
+ */

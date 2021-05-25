@@ -1,0 +1,42 @@
+//
+// MIXINS
+//---------------------------
+
+@mixin container( $width ) {
+	max-width: $width;
+	margin: 0 auto;
+}
+
+//RESPONSIVE
+@function em( $target, $content: 16 ) {
+	@return ( $target/$content) * 1em
+}
+
+@mixin font-size( $target, $content: 16 ) {
+	font-size: em( $target/$content);
+}
+
+//LOGOS
+@mixin controls-logo {
+		position: absolute;
+		bottom:em(20);
+		right:em(20);
+		opacity: 0.7;
+}
+
+// CLEARFIX
+@mixin clearfix {
+    &:before,
+    &:after { content: " "; display: table; }
+    &:after { clear: both; }
+}
+
+// ANIMOVANE OBRAZKY
+@mixin anime-p ( $img ) {
+	&:hover,
+	&:focus {
+		transform:scale(1.15);
+		transition: all 1s ease-in-out;
+	}
+
+}

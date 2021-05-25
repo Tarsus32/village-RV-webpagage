@@ -1,0 +1,83 @@
+//
+// GLOBAL FOOTER
+//---------------------------
+
+.global-footer {
+	background-color: $color-globalfooter;
+	padding: em(50, 18) 0 em(80, 18);
+	font-size: em(18);
+}
+
+.social-icons {
+	a {
+		color:$color-footer-text;
+		padding: em(8, 18) em(16, 18);
+		background: $color-here;
+		border-radius: 50%;
+
+		&:hover,
+		&:focus {
+			color: lighten( $color-here-si, 10%);
+			background: lighten( $color-bg-si, 10%);
+			}
+
+		}
+	li {
+		margin: 0 em(12, 18) em(25, 18) em(10, 18);
+	}
+}
+
+.selected-social a {
+	color: $color-here-si;
+}
+
+
+.menu2 {
+
+	padding-bottom: em(15, 18);
+
+	a {
+		color:$color-footer-text;
+		font-size: em(17, 18);
+		font-weight: 600;
+		letter-spacing: em(2, 17);
+		text-transform: uppercase;
+		margin: 0 em(10, 17);
+
+		&:hover,
+		&:focus {
+			color: lighten( $color-here, 10%);
+			text-decoration: underline;
+		}
+
+	}
+
+}
+
+.contact-bar {
+	a {
+		color:$color-footer-text;
+		font-size: em(13, 18);
+		text-transform: uppercase;
+		letter-spacing: em(2, 13);
+
+		&:hover,
+		&:focus {
+			color: lighten( $color-here, 10%);
+			text-decoration: underline;
+		}
+	}
+
+	li {
+
+		&:after {
+			color:$color-footer-text;
+			content: " | ";
+			padding: 0 em(10, 18);
+		}
+		&:last-child:after {
+			content: " ";
+		}
+	}
+}
+

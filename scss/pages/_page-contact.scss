@@ -1,0 +1,106 @@
+.contact-field {
+
+	margin-top: 2em;
+	text-align: left;
+	margin-right: 1em;
+
+	input {
+		width: em(480);
+		padding: em(12);
+		margin: em(5) em(10) em(5) 0;
+		border-radius: em(3);
+		border: em(1) solid #ccc;
+		margin-bottom: 1em;
+
+		&:hover,
+		&:focus {
+			border: 2px solid #1e1c1c;
+			background: lighten( #ccc, 10%);
+			}
+	}
+
+	textarea {
+		margin-bottom: 1em;
+	}
+
+	 p {
+	 	padding: 0;
+	 }
+
+	 button {
+		padding: em(12, 17) em(200, 17);
+		margin-bottom: 4em;
+	}
+}
+
+.name,
+.surname {
+		display: inline-block;
+		text-align: left;
+		input {
+			width:em(233);
+		}
+	}
+
+.area-text,
+.area-mail {
+		display: block;
+		text-align: left;
+	}
+
+.options1 {
+	h2{
+		margin-bottom: 0.5em;
+	}
+	input {
+		width:em(30);
+		margin-bottom: 2em;
+	}
+}
+
+.contact-map {
+
+	vertical-align: top;
+	margin-top: 3em;
+
+	 img {
+	 	width: 30em;
+	 	height: auto;
+	 	margin-bottom: 2em;
+	 	}
+
+	  p {
+	  	font-family: $font-family-text;
+	 	padding: 0;
+		}
+
+
+}
+
+.contact-field,
+.contact-map {
+	display: inline-block;
+}
+
+.contact-village{
+	a {
+		font-size: 22px;
+		display: block;
+		text-align: left;
+		margin-top: 2em;
+
+		&:hover,
+		&:focus {
+			color: lighten( $color-here, 10%);
+			}
+	}
+
+	.fas {
+		margin-right: 0.8em;
+	}
+
+	.fab {
+		margin-right: 1.2em;
+	}
+}
+

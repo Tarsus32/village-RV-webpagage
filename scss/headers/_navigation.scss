@@ -1,0 +1,58 @@
+//
+// NAVIGATION
+//---------------------------
+.nav-bg{
+	background: $color-bg-nav;
+}
+
+nav {
+
+	a {
+		color: $color-bg-nav-btn-dark;
+		font-size: 1em;
+		padding:em(7) em(62);
+
+		&:hover,
+		&:focus {
+			background: $color-bg-nav-btn;
+			color: darken( $color-bg-nav-btn-dark, 10%)
+		}
+	}
+
+	li {
+		padding: em(8) 0;
+		margin-right:-(em(5));
+		}
+
+	.selected {
+			background: $color-bg-nav-btn;
+			}
+	}
+
+@media (max-width: 1140px ) {
+	nav{
+		font-size: 80%;
+	}
+}
+
+@media screen and (max-width: 950px) {
+		#menu {
+			display: block;
+			font-size:1.35em;
+			text-align: center;
+		}
+		#nav.js {
+			display: none;
+		}
+		ul {
+			width:100%;
+			list-style:none;
+		}
+		#menu li {
+				width: 100%;
+				border-right:none;
+			}
+	}
+
+
+

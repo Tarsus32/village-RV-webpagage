@@ -1,0 +1,72 @@
+
+//
+// ASIDE -
+//---------------------------
+
+.aside1 {
+
+	padding: em(100) 0;
+
+	h1 {
+		font-size: em(37);
+		text-transform: uppercase;
+		letter-spacing: em(3, 37);
+		line-height: em(48, 37);
+	}
+
+	p {
+		font-size: em(16);
+		font-weight: em(200);
+		letter-spacing: em(2);
+		text-transform: uppercase;
+		font-family: $font-family-first-header;
+		margin-bottom: em(20);
+	}
+
+	input {
+		width: em(520);
+		padding: em(12);
+		margin: em(5) em(10) em(5) 0;
+		border-radius: em(3);
+		border: em(1) solid #ccc;
+
+	}
+}
+
+
+	.field,
+	.button-send {
+		display: inline-block;
+	}
+
+	.field {
+		border-right: em(1) solid;
+		margin-right: em(10);
+	}
+
+	.send-email {
+		border: {
+					bottom: em(1) solid;
+					top: em(1) solid;
+				}
+		margin: 0 22%;
+	}
+
+	@media (max-width: 1290px ) {
+	.send-email,
+	.field {
+		border:none;
+	}
+
+	.button-send {
+		margin-top: 2em;
+	}
+}
+
+@media (max-width: 1150px ) {
+	.aside1 {
+		p {
+			font-size: 85%;
+		}
+	}
+}

@@ -1,0 +1,79 @@
+
+//
+// SECTION 2 - HOME/HISTORY
+//---------------------------
+
+.cover2 {
+	color:$color-text-history;
+	padding: em(20) 0;
+}
+
+.sec2-bottom h2 {
+	text-decoration: underline;
+	margin: 0 0 em(20, 30);
+}
+
+.cover2-history p:first-child {
+	padding-bottom: 0;
+}
+
+
+//
+// SECTION 3 - HOME/HISTORY
+//---------------------------
+
+.gallery-history {
+
+	background-color: $color-bg-history;
+
+
+	h2 {
+		margin: 0 em(145, 30) em(25, 30);
+		padding-bottom: 0;
+		text-decoration: underline;
+		padding-top: em(25,30);
+	}
+
+	.more p,
+	.more a {
+		font-size: em(16);
+		text-align: center;
+	}
+
+	.more p {
+		padding-bottom: em(10);
+	}
+
+	.more a {
+		color:$color-here;
+		font-weight: 700;
+
+		&:hover,
+		&:focus {
+			color: #fff;
+			text-decoration: underline;
+		}
+	}
+
+	.more {
+		padding-bottom: em(30);
+	}
+}
+
+.history-rvnp {
+	width:em(760);
+	margin: 0 auto;
+
+	img {
+		display: inline-block;
+		width: em(250);
+		height: em(150);
+
+	 	@include anime-p (img)
+	}
+}
+
+.gallery-history2 {
+	background-color: $color-bg-home;
+	font-family: $font-family-history;
+}

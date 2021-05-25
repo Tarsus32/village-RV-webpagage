@@ -1,0 +1,40 @@
+.documents {
+	margin: em(30) 0 em(50);
+
+	a {
+		font-size: em(20);
+		display: block;
+		margin: em(40, 20) em(50, 20);
+		border-bottom: em(2, 20) dotted #000;
+
+		&:hover,
+		&:focus {
+			color: $color-here;
+		}
+	}
+
+	.fas {
+		margin:0 0.1em  0.13em 0;
+	}
+
+}
+
+.docs1 ,
+.docs2  {
+	display: inline-block;
+	text-align: left;
+}
+
+
+  @media (max-width: 1010px ) {
+
+	.post-title2 {
+		font-size: em(35);
+	}
+  	.documents  {
+  		a {
+  			font-size: 85%;
+  		}
+  	}
+
+  }

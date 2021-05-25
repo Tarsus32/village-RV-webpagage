@@ -1,0 +1,50 @@
+ %button {
+ 	font: {
+ 		size: em(17);
+ 		family:$font-family-sans;
+ 		weight: 600;
+ 	}
+
+	color:$color-text-btn;
+ 	border: none;
+ 	cursor: poiner;
+
+	text-transform: uppercase;
+	display: inline-block;
+
+	padding: em(12, 17) em(44, 17);
+    border-radius: em(4, 17);
+
+ }
+
+ button {
+ 	@extend %button;
+ 	background-color: $color-bg-send;
+
+ 	&:hover,
+	&:focus {
+			color: $color-bg-send;
+			border: em(1, 17) solid #000;
+			background-color: #fff;
+		}
+ }
+
+ .butt {
+ 	 	margin-bottom: em(15);
+
+	a {
+		@extend %button;
+		background-color: $color-bg-send;
+ 		color: #fff;
+		padding: em(9, 17) em(44, 17);
+		border: em(2, 17) solid $color-bg-send;
+
+ 		&:hover,
+		&:focus {
+			color: #000;
+			border: em(2, 17) solid #000;
+			background-color: #fff;
+
+			}
+ 	 	}
+ }

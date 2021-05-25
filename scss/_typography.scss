@@ -1,0 +1,39 @@
+//
+// TYPOGRAPHY
+//---------------------------
+
+h1 {
+	font-size: em(55);
+	margin: 0;
+}
+
+h2 {
+	font-size: em(30);
+	margin: 0;
+	padding: 0 0 em(10, 30) 0;
+}
+
+h3 {
+	font-size: em(25);
+	font-weight: normal;
+}
+
+p {
+	line-height: em(28);
+	margin:0;
+}
+
+section p {
+	padding: em(30) 0;
+	text-align: justify;
+}
+
+.home {
+	font-family: $font-family-text;
+
+}
+
+.history {
+	font-family: $font-family-history;
+	color: $color-text-history;
+}
